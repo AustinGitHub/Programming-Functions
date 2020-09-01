@@ -41,8 +41,6 @@ def SqK2SqM(a):
     return round(a/2.59,4)
 def Acre2SqM(a):
     return (round(a/640),4)
-
-
 def ARectangle(a,b):
     return (a*b)
 def ASquare(a):
