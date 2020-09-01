@@ -13,14 +13,14 @@ def Mps2Knot(a):
 	return round(a*1.944,4)
 def Mps2Fps(a):
 	return round(a*3.281,4)
-def Mps2Kps(a):
+def Mps2Kph(a):
 	return round(a*3.6,4)
 
 def Knot2Mps(a):
 	return round(a/1.944,4)
 def Knot2Fps(a):
 	return round(a*1.688,4)
-def Knot2Mph(a):
+def Knot2Mph(a):3
 	return round(a*1.151,4)
 def Knot2Kph(a):
 	return round(a*1.852,4)
