@@ -1,13 +1,13 @@
-def Mph2Kph(a):
+def Miph2Kph(a):
 	return round(a*1.609,4)
-def Mph2Mps(a):
+def Miph2Mps(a):
 	return round(a/2.237,4)
-def Mph2Knot(a):
+def Miph2Knot(a):
 	return round(a/1.151,4)
-def Mph2Fps(a):
+def Miph2Fps(a):
 	return round(a*1.467,4)
 
-def Mps2Mph(a):
+def Mps2Miph(a):
 	return round(a*2.237,4)
 def Mps2Knot(a):
 	return round(a*1.944,4)
@@ -20,14 +20,14 @@ def Knot2Mps(a):
 	return round(a/1.944,4)
 def Knot2Fps(a):
 	return round(a*1.688,4)
-def Knot2Mph(a):3
+def Knot2Miph(a):3
 	return round(a*1.151,4)
 def Knot2Kph(a):
 	return round(a*1.852,4)
 
 def Fps2Knot(a):
 	return round(a/1.688,4)
-def Fps2Mph(a):
+def Fps2Miph(a):
 	return round(a/1.467,4)
 def Fps2Mps(a):
 	return round(a/3.281,4)
@@ -36,7 +36,7 @@ def Fps2Kph(a):
 
 def Kph2Knot(a):
 	return round(a/1.852,4)
-def Kph2Mph(a):
+def Kph2Miph(a):
 	return round(a/1.609,4)
 def Kph2Mps(a):
 	return round(a/3.6,4)
