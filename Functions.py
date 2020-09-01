@@ -5,8 +5,8 @@ def Subtract(a,b):
 def Multiply(a,b):
     return a*b
 def Divide(a,b):
-    return a/b
-def SquareRoot(a,b):
+    return round(a/b,4)
+def Square(a,b):
     return a**b
 def AddAll(a):
     total = 0
@@ -39,7 +39,9 @@ def K2F(a):
     return round((a-273.15)*9/5+32,3)
 def SqK2SqM(a):
     return round(a/2.59,4)
-
+def Acre2SqM(a):
+    return (round(a/640,4)
+            
 
 
 
