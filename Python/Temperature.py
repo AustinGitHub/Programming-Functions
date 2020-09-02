@@ -1,3 +1,9 @@
+def AllTemperature():
+	one = "For all the following functions go to"
+	two = "\nhttps://github.com/AustinGitHub/Programming-Functions/wiki/Temperature-Conversion"
+	three = "\nRight click and open url"
+	return one+two+three
+
 def F2C(a):
     return round((a-32)*5/9,3)
 def C2F(a):

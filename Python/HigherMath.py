@@ -1,3 +1,9 @@
+def AllMaths():
+    one = "For all the following functions go to"
+    two = "\nhttps://github.com/AustinGitHub/Programming-Functions/wiki/Maths"
+    three = "\nRight click and open url"
+    return one+two+three
+
 def Add(a,b):
     return a+b
 def Subtract(a,b):

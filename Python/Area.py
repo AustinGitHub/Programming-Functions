@@ -1,3 +1,8 @@
+def AllArea():
+    one = "For all the following functions go to"
+    two = "\nhttps://github.com/AustinGitHub/Programming-Functions/wiki/Area"
+    three = "\nRight click and open url"
+    return one+two+three
 def Acre2SqM(a):
     return (round(a/640),4)
 def ARectangle(a,b):
