@@ -13,18 +13,18 @@ def MetTon2mg(a):
 def MetTon2Microg(a):
 	return a*1000000000000
 def MetTon2ImpTon(a):
-	return round(a/1.016,4)
+	return round(a/1.016,6)
 def MetTon2UsTon(a):
-	return round(a*1.102,4)
+	return round(a*1.102,6)
 def MetTon2Stone(a):
-	return round(a*157.46,4)
+	return round(a*157.46,6)
 def MetTon2lb(a):
-	return round(a*2205,4)
+	return round(a*2205,6)
 def MetTon2oz(a):
 	return a*35274
 
 def Kg2MetTon(a):
-	return round(a/1000,5)
+	return round(a/1000,7)
 def Kg2g(a):
 	return a*1000
 def Kg2mg(a):
@@ -32,15 +32,15 @@ def Kg2mg(a):
 def Kg2Microg(a):
 	return a*1000000000
 def Kg2ImpTon(a):
-	return round(a/1016,5)
+	return round(a/1016,7)
 def Kg2UsTon(a):
-	return round(a/907,5)
+	return round(a/907,7)
 def Kg2Stone(a):
-	return round(a/6.35,4)
+	return round(a/6.35,6)
 def Kg2lb(a):
-	return round(a*2.205,4)
+	return round(a*2.205,6)
 def Kg2oz(a):
-	return round(a*35.274,4)
+	return round(a*35.274,6)
 
 def Gram2MetTon(a):
 	return a/1000000
@@ -55,8 +55,27 @@ def Gram2ImpTon(a):
 def Gram2UsTon(a):
 	return a/907185
 def Gram2Stone(a):
-	return round(a/6350,8)
+	return round(a/6350,12)
 def Gram2lb(a):
-	return round(a/454,6)
+	return round(a/454,10)
 def Gram2oz(a):
-	return round(a/28.35,5)
+	return round(a/28.35,9)
+
+def Mg2MetTon(a):
+	return round(a/1000000000,13)
+def Mg2kg(a):
+	return round(a/1000000,10)
+def Mg2g(a):
+	return a/1000
+def Mg2Microg(a):
+	return a*1000
+def Mg2ImpTon(a):
+	return round(a/1016000000,14)
+def Mg2UsTon(a):
+	return round(a/907200000,14)
+def Mg2Stone(a):
+	return round(a/6350000,11)
+def Mg2lb(a):
+	return round(a/453592,10)
+def Mg2oz(a):
+	return round(a/28350,8)

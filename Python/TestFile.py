@@ -7,5 +7,5 @@ from Mass import *
 from Length import *
 
 
-print(AllLengths())
+print(Mg2oz(1))
 
