@@ -1,3 +1,9 @@
+def AllSpeeds():
+	one = "For all the following functions go to"
+	two = "\nhttps://github.com/AustinGitHub/Programming-Functions/wiki/Speed"
+	three = "\nRight click and open url"
+	return one+two+three
+
 def Miph2Kph(a):
 	return round(a*1.609,4)
 def Miph2Mps(a):
