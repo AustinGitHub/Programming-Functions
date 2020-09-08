@@ -15,7 +15,7 @@ def Highest(a):
             highest = x
     return highest;
 def Lowest(a):
-    lowest = 0;
+    lowest = Highest(a);
     for x in a:
         if(x < lowest):
             lowest = x
